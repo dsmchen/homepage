@@ -1,0 +1,21 @@
+@media screen and (width >= 40em) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (width >= 70em) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .container {
+    max-width: 80em;
+  }
+}
