@@ -4,6 +4,6 @@
 
 ## Resources
 
-- Fonts: [Inclusive Sans](https://fonts.google.com/specimen/Inclusive+Sans), [Rasa](https://fonts.google.com/specimen/Rasa)
+- Fonts: <https://pimpmytype.com/font/inclusive-sans/>, [Inclusive Sans](https://fonts.google.com/specimen/Inclusive+Sans), [Young Serif](https://fonts.google.com/specimen/Young+Serif)
 - Images: <https://www.theguardian.com/music/rosalia>
 - CSS reset: [Josh's Custom CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
