@@ -19,19 +19,10 @@
 }
 
 @font-face {
-  font-family: 'Rasa';
-  src: url('assets/fonts/Rasa-Regular.woff2') format('woff2'),
-    url('assets/fonts/Rasa-Regular.woff') format('woff');
+  font-family: 'Young Serif';
+  src: url('assets/fonts/YoungSerif-Regular.woff2') format('woff2'),
+    url('assets/fonts/YoungSerif-Regular.woff') format('woff');
   font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Rasa';
-  src: url('assets/fonts/Rasa-Bold.woff2') format('woff2'),
-    url('assets/fonts/Rasa-Bold.woff') format('woff');
-  font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
@@ -116,7 +107,7 @@ body {
 h1,
 h2,
 h3 {
-  font-family: Rasa, 'Times New Roman', Times, serif;
+  font-family: Young Serif, 'Times New Roman', Times, serif;
 }
 
 @media screen and (width >= 40em) {
