@@ -30,8 +30,16 @@ main h2 {
   padding: 20px;
 }
 
-.card h3 {
+.card .text-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 10px;
+}
+
+.card .icon {
+  width: 20px;
+  height: 20px;
 }
 
 /*
