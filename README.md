@@ -10,6 +10,13 @@
   - [Google Fonts - Young Serif](https://fonts.google.com/specimen/Young+Serif)
 - Images:
   - [The Guardian - Rosalía](https://www.theguardian.com/music/rosalia)
+  - [Wikipedia - Lux](<https://en.wikipedia.org/wiki/Lux_(Rosal%C3%ADa_album)>)
+  - [Wikipedia - Motomami](https://en.wikipedia.org/wiki/Motomami)
+  - [Wikipedia - El Mal Querer](https://en.wikipedia.org/wiki/El_mal_querer)
+  - [Wikipedia - Los Ángeles](<https://en.wikipedia.org/wiki/Los_%C3%81ngeles_(album)>)
+  - [Wikipedia - Despechá](https://en.wikipedia.org/wiki/Despech%C3%A1)
+  - [Wikipedia - Con Altura](https://en.wikipedia.org/wiki/Con_Altura)
+  - [Cloudinary - Responsive Breakpoints](https://www.responsivebreakpoints.com/)
   - [Cloudinary - 5 Ways to Crop Images in HTML/CSS](https://cloudinary.com/guides/automatic-image-cropping/5-ways-to-crop-images-in-html-css)
 - CSS Reset: [Joshua Comeau - Custom CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
 - Colours: [Material Design - The Color System](https://m2.material.io/design/color/the-color-system.html)
