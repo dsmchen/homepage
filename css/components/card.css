@@ -39,9 +39,17 @@ main h2 {
 */
 
 @media screen and (width >= 40em) {
+  main h2 {
+    margin-left: 40px;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+
   .cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 
@@ -50,7 +58,13 @@ main h2 {
 */
 
 @media screen and (width >= 70em) {
+  main h2 {
+    margin-left: 80px;
+  }
+
   .cards {
     grid-template-columns: repeat(3, 1fr);
+    padding-left: 80px;
+    padding-right: 80px;
   }
 }
