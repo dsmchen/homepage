@@ -1,0 +1,120 @@
+/*
+  Mobile
+*/
+
+header {
+  margin-bottom: 80px;
+}
+
+header .image {
+  position: relative;
+  padding: 20px 40px;
+}
+
+header .image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--gray-500);
+  box-shadow: 5px 5px 10px var(--gray-400);
+  transform: scale(2) translate(-25%, -60%) rotate(65deg);
+}
+
+header .image img {
+  position: relative;
+  box-shadow: 5px 5px 10px var(--gray-400);
+}
+
+header .image h1 {
+  position: absolute;
+  left: 40px;
+  right: 40px;
+  bottom: 25px;
+  padding: 5px 10px;
+}
+
+header .image h1 span {
+  background: var(--white);
+}
+
+header .text {
+  padding: 20px;
+}
+
+header .text h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/*
+  Tablet
+*/
+
+@media screen and (width >= 40em) {
+  header {
+    position: relative;
+  }
+
+  header::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--gray-500);
+    box-shadow: 5px 5px 10px var(--gray-400);
+    transform: scale(2) translateY(-40%) rotate(-15deg);
+  }
+
+  header .image {
+    position: static;
+    float: left;
+    width: 50%;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  header .image::before {
+    width: 0;
+    height: 0;
+  }
+
+  header .image h1 {
+    left: unset;
+    bottom: unset;
+    top: 80px;
+    right: 40px;
+    width: fit-content;
+    background: var(--white);
+    box-shadow: 5px 5px 10px var(--gray-400);
+  }
+
+  header .image h1 span {
+    background: unset;
+  }
+
+  header .text {
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 160px 0 0;
+  }
+
+  header .text-inner {
+    padding: 20px;
+    background: var(--white);
+    box-shadow: 5px 5px 10px var(--gray-400);
+  }
+}
+
+/*
+  Desktop
+*/
+
+@media screen and (width >= 70em) {
+}
