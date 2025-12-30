@@ -24,28 +24,25 @@ header .image::before {
   transform: scale(2) translate(-25%, -60%) rotate(65deg);
 }
 
-header .image img {
+header img {
   position: relative;
   box-shadow: 5px 5px 10px var(--gray-400);
 }
 
-header .image h1 {
+header h1 {
   position: absolute;
   left: 40px;
   right: 40px;
-  bottom: 25px;
+  bottom: 20px;
   padding: 5px 10px;
-}
-
-header .image h1 span {
-  background: var(--white);
+  background: var(--white-opacity-50);
 }
 
 header .text {
   padding: 20px;
 }
 
-header .text h2 {
+header h2 {
   text-align: center;
   margin-bottom: 20px;
 }
@@ -87,24 +84,21 @@ header .text h2 {
     height: 0;
   }
 
-  header .image h1 {
+  header h1 {
     left: unset;
     bottom: unset;
-    top: 80px;
+    top: 60px;
     right: 40px;
-    width: fit-content;
+    width: 50%;
+    text-align: center;
     background: var(--white);
     box-shadow: 5px 5px 10px var(--gray-400);
-  }
-
-  header .image h1 span {
-    background: unset;
   }
 
   header .text {
     margin-left: 80px;
     margin-right: 80px;
-    padding: 160px 0 0;
+    padding: 190px 0 20px;
   }
 
   header .text-inner {
