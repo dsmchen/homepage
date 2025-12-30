@@ -2,8 +2,6 @@
   Mobile 
 */
 
-/* Footer */
-
 footer {
   background: var(--gray-200);
 }
@@ -32,13 +30,6 @@ footer address span {
 */
 
 @media screen and (width >= 40em) {
-  .cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  /* Footer */
-
   footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -61,21 +52,6 @@ footer address span {
 */
 
 @media screen and (width >= 70em) {
-  body {
-    display: flex;
-    justify-content: center;
-  }
-
-  .cards {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .container {
-    max-width: 80em;
-  }
-
-  /* Footer */
-
   footer {
     grid-template-columns: 1fr 2fr;
     gap: 80px;

@@ -1,0 +1,20 @@
+/*
+  Tablet
+*/
+
+@media screen and (width >= 40em) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/*
+  Desktop
+*/
+
+@media screen and (width >= 70em) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

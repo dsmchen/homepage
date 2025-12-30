@@ -1,0 +1,14 @@
+/*
+  Desktop
+*/
+
+@media screen and (width >= 70em) {
+  body {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    max-width: 80em;
+  }
+}
