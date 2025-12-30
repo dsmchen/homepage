@@ -9,6 +9,7 @@ header {
 header .image {
   position: relative;
   padding: 20px 40px;
+  overflow: hidden;
 }
 
 header .image::before {
@@ -56,6 +57,7 @@ header .text h2 {
 @media screen and (width >= 40em) {
   header {
     position: relative;
+    overflow: hidden;
   }
 
   header::before {
