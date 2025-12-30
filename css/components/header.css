@@ -119,6 +119,7 @@ header h2 {
   }
 
   header .image {
+    flex: 1;
     position: relative;
     width: unset;
     padding: unset;
@@ -135,6 +136,7 @@ header h2 {
   }
 
   header .text {
+    flex: 1;
     display: flex;
     align-items: center;
     padding-top: unset;
