@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Inclusive Sans';
+  src: url('assets/fonts/InclusiveSans-Regular.woff2') format('woff2'),
+    url('assets/fonts/InclusiveSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inclusive Sans';
+  src: url('assets/fonts/InclusiveSans-Bold.woff2') format('woff2'),
+    url('assets/fonts/InclusiveSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Young Serif';
+  src: url('assets/fonts/YoungSerif-Regular.woff2') format('woff2'),
+    url('assets/fonts/YoungSerif-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
