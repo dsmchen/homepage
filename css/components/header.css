@@ -67,7 +67,7 @@ header h2 {
     height: 100%;
     background: var(--gray-500);
     box-shadow: 5px 5px 10px var(--gray-400);
-    transform: scale(2) translateY(-40%) rotate(-15deg);
+    transform: scale(2) translateY(-45%) rotate(-15deg);
   }
 
   header .image {
@@ -113,4 +113,38 @@ header h2 {
 */
 
 @media screen and (width >= 70em) {
+  header {
+    display: flex;
+    padding: 40px 80px;
+  }
+
+  header .image {
+    position: relative;
+    width: unset;
+    padding: unset;
+    box-shadow: 5px 5px 10px var(--gray-400);
+  }
+
+  header h1 {
+    top: unset;
+    right: unset;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    background: var(--white-opacity-50);
+  }
+
+  header .text {
+    display: flex;
+    align-items: center;
+    padding-top: unset;
+    padding-bottom: unset;
+    margin-left: unset;
+    margin-right: unset;
+  }
+
+  header .text-inner {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
 }
