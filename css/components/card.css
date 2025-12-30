@@ -1,4 +1,40 @@
 /*
+  Mobile
+*/
+
+main h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 100px;
+}
+
+.card {
+  box-shadow: 5px 5px 10px var(--gray-400);
+}
+
+.card .image {
+  display: flex;
+  justify-content: center;
+  background: var(--gray-500);
+}
+
+.card .text {
+  padding: 20px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+}
+
+/*
   Tablet
 */
 
