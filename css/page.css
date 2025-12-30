@@ -2,27 +2,6 @@
   Mobile 
 */
 
-body {
-  font-family: Inclusive Sans, Arial, Helvetica, sans-serif;
-  color: var(--gray-900);
-}
-
-h1,
-h2,
-h3 {
-  font-family: Young Serif, 'Times New Roman', Times, serif;
-}
-
-h1 {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-h2 {
-  font-size: 2rem;
-  line-height: 1;
-}
-
 /* Header */
 
 header {
