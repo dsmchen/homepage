@@ -39,3 +39,9 @@ footer .icon {
     justify-content: start;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .icon {
+    transition: none;
+  }
+}

@@ -173,3 +173,10 @@ header p {
     text-align: left;
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  header .image::before,
+  header::before {
+    animation: none;
+  }
+}
