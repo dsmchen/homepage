@@ -2,6 +2,15 @@
   Mobile
 */
 
+@keyframes mobile-rotate-in {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: scale(2) translate(-25%, -60%) rotate(65deg);
+  }
+}
+
 header {
   margin-bottom: 80px;
 }
@@ -13,6 +22,7 @@ header .image {
 }
 
 header .image::before {
+  animation: mobile-rotate-in 1000ms;
   content: '';
   position: absolute;
   top: 0;
@@ -56,12 +66,22 @@ header p {
 */
 
 @media screen and (width >= 40em) {
+  @keyframes tablet-rotate-in {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: scale(2) translateY(-45%) rotate(-15deg);
+    }
+  }
+
   header {
     position: relative;
     overflow: hidden;
   }
 
   header::before {
+    animation: tablet-rotate-in 1000ms;
     content: '';
     position: absolute;
     z-index: -1;
