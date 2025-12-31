@@ -19,5 +19,6 @@
   - [Cloudinary - Responsive Breakpoints](https://www.responsivebreakpoints.com/)
   - [Cloudinary - 5 Ways to Crop Images in HTML/CSS](https://cloudinary.com/guides/automatic-image-cropping/5-ways-to-crop-images-in-html-css)
 - Icons: [Material Design Icons](https://pictogrammers.com/library/mdi/)
+- Favicon: [favicon.io](https://favicon.io/)
 - CSS Reset: [Joshua Comeau - Custom CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
 - Colours: [Material Design - The Color System](https://m2.material.io/design/color/the-color-system.html)
