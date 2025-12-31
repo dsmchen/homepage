@@ -1,0 +1,41 @@
+.icon {
+  will-change: transform;
+  transition: transform 500ms;
+}
+
+.icon:hover {
+  transition: transform 250ms;
+  transform: scale(1.25);
+}
+
+header .icons,
+footer .icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+header .icon,
+footer .icon {
+  width: 30px;
+  height: 30px;
+}
+
+.card .icon {
+  width: 20px;
+  height: 20px;
+}
+
+/*
+  Tablet
+*/
+
+@media screen and (width >= 40em) {
+  header .icons {
+    justify-content: end;
+  }
+
+  footer .icons {
+    justify-content: start;
+  }
+}

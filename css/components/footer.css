@@ -30,17 +30,6 @@ footer .address-row.end {
   align-items: end;
 }
 
-footer .icons {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-footer .icon {
-  width: 30px;
-  height: 30px;
-}
-
 /*
   Tablet
 */
@@ -60,10 +49,6 @@ footer .icon {
 
   footer h2 {
     text-align: left;
-  }
-
-  footer .icons {
-    justify-content: start;
   }
 }
 
