@@ -27,6 +27,11 @@ main h2 {
   transform: translateY(-10px);
 }
 
+.card a {
+  color: var(--gray-900);
+  text-decoration: none;
+}
+
 .card .image {
   display: flex;
   justify-content: center;
