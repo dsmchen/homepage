@@ -18,6 +18,13 @@ main h2 {
 
 .card {
   box-shadow: 5px 5px 10px var(--gray-400);
+  will-change: transform;
+  transition: transform 450ms;
+}
+
+.card:hover {
+  transition: transform 150ms;
+  transform: translateY(-10px);
 }
 
 .card .image {
