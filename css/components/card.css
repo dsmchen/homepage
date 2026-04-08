@@ -36,6 +36,17 @@ main h2 {
   display: flex;
   justify-content: center;
   background: var(--gray-500);
+  overflow: hidden;
+}
+
+.card img {
+  will-change: transform;
+  transition: transform 500ms;
+}
+
+.card:hover img {
+  transition: transform 250ms;
+  transform: scale(1.1);
 }
 
 .card .text {

@@ -26,6 +26,11 @@ footer .icon {
   height: 20px;
 }
 
+.card:hover .icon {
+  transition: transform 250ms;
+  transform: scale(1.25);
+}
+
 /*
   Tablet
 */
