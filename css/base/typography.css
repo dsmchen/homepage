@@ -1,55 +1,24 @@
-@font-face {
-  font-family: 'Inclusive Sans';
-  src:
-    url('../../assets/fonts/InclusiveSans-Regular.woff2') format('woff2'),
-    url('../../assets/fonts/InclusiveSans-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Inclusive Sans';
-  src:
-    url('../../assets/fonts/InclusiveSans-Bold.woff2') format('woff2'),
-    url('../../assets/fonts/InclusiveSans-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Young Serif';
-  src:
-    url('../../assets/fonts/YoungSerif-Regular.woff2') format('woff2'),
-    url('../../assets/fonts/YoungSerif-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
 body {
-  font-family:
-    Inclusive Sans,
-    Arial,
-    Helvetica,
-    sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   color: var(--gray-900);
 }
 
 h1,
 h2,
 h3 {
-  font-family:
-    Young Serif,
-    'Times New Roman',
-    Times,
-    serif;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+h2,
+h3 {
+  letter-spacing: 0.2rem;
 }
 
 h1 {
   font-size: 3rem;
   line-height: 1;
+  letter-spacing: 1rem;
 }
 
 h2 {
