@@ -1,6 +1,7 @@
 @font-face {
   font-family: 'Inclusive Sans';
-  src: url('../../assets/fonts/InclusiveSans-Regular.woff2') format('woff2'),
+  src:
+    url('../../assets/fonts/InclusiveSans-Regular.woff2') format('woff2'),
     url('../../assets/fonts/InclusiveSans-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -9,7 +10,8 @@
 
 @font-face {
   font-family: 'Inclusive Sans';
-  src: url('../../assets/fonts/InclusiveSans-Bold.woff2') format('woff2'),
+  src:
+    url('../../assets/fonts/InclusiveSans-Bold.woff2') format('woff2'),
     url('../../assets/fonts/InclusiveSans-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
@@ -18,7 +20,8 @@
 
 @font-face {
   font-family: 'Young Serif';
-  src: url('../../assets/fonts/YoungSerif-Regular.woff2') format('woff2'),
+  src:
+    url('../../assets/fonts/YoungSerif-Regular.woff2') format('woff2'),
     url('../../assets/fonts/YoungSerif-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
@@ -26,14 +29,22 @@
 }
 
 body {
-  font-family: Inclusive Sans, Arial, Helvetica, sans-serif;
+  font-family:
+    Inclusive Sans,
+    Arial,
+    Helvetica,
+    sans-serif;
   color: var(--gray-900);
 }
 
 h1,
 h2,
 h3 {
-  font-family: Young Serif, 'Times New Roman', Times, serif;
+  font-family:
+    Young Serif,
+    'Times New Roman',
+    Times,
+    serif;
 }
 
 h1 {
@@ -44,4 +55,12 @@ h1 {
 h2 {
   font-size: 2rem;
   line-height: 1;
+}
+
+a {
+  color: var(--gray-900);
+}
+
+a:hover {
+  text-decoration: none;
 }
