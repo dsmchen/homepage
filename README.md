@@ -11,10 +11,6 @@ A responsive homepage. For more information, please go to [The Odin Project: Hom
 
 ### Assets
 
-- Fonts:
-  - [Pimp My Type - Inclusive Sans](https://pimpmytype.com/font/inclusive-sans/)
-  - [Google Fonts - Inclusive Sans](https://fonts.google.com/specimen/Inclusive+Sans)
-  - [Google Fonts - Young Serif](https://fonts.google.com/specimen/Young+Serif)
 - Images:
   - [The Guardian - Rosalía](https://www.theguardian.com/music/rosalia)
   - [Wikipedia - Lux](<https://en.wikipedia.org/wiki/Lux_(Rosal%C3%ADa_album)>)
