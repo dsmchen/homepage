@@ -1,8 +1,15 @@
 # Homepage
 
-[The Odin Project: Homepage](https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-homepage)
+A responsive homepage. For more information, please go to [The Odin Project: Homepage](https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-homepage).
+
+## Inspiration
+
+- [Buffer](https://buffer.com/)
+- [Josh W. Comeau](https://www.joshwcomeau.com/)
 
 ## Resources
+
+### Assets
 
 - Fonts:
   - [Pimp My Type - Inclusive Sans](https://pimpmytype.com/font/inclusive-sans/)
@@ -20,8 +27,12 @@
   - [Cloudinary - 5 Ways to Crop Images in HTML/CSS](https://cloudinary.com/guides/automatic-image-cropping/5-ways-to-crop-images-in-html-css)
 - Icons: [Material Design Icons](https://pictogrammers.com/library/mdi/)
 - Favicon: [favicon.io](https://favicon.io/)
-- CSS Reset: [Joshua Comeau - A Modern CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
+
+### CSS
+
+- CSS Reset: [Josh W. Comeau - A Modern CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
 - Colours: [Material Design - The Color System](https://m2.material.io/design/color/the-color-system.html)
 - Animations:
-  - [Joshua Comeau - An Interactive Guide to CSS Transitions](https://www.joshwcomeau.com/animation/css-transitions/)
-  - [Joshua Comeau - An Interactive Guide to Keyframe Animations](https://www.joshwcomeau.com/animation/keyframe-animations/)
+  - [Josh W. Comeau - An Interactive Guide to CSS Transitions](https://www.joshwcomeau.com/animation/css-transitions/)
+  - [Josh W. Comeau - An Interactive Guide to Keyframe Animations](https://www.joshwcomeau.com/animation/keyframe-animations/)
+
