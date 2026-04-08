@@ -1,11 +1,12 @@
 # Homepage
 
-A responsive homepage. For more information, please go to [The Odin Project: Homepage](https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-homepage).
+A responsive homepage using only vanilla techniques. No tools, no frameworks — just HTML and CSS. For more information, please go to [The Odin Project: Homepage](https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-homepage).
 
 ## Inspiration
 
 - [Buffer](https://buffer.com/)
 - [Josh W. Comeau](https://www.joshwcomeau.com/)
+- [Rosalía](https://www.rosalia.com/)
 
 ## Resources
 
@@ -28,6 +29,7 @@ A responsive homepage. For more information, please go to [The Odin Project: Hom
 
 - CSS Reset: [Josh W. Comeau - A Modern CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
 - Colours: [Material Design - The Color System](https://m2.material.io/design/color/the-color-system.html)
+- Gradient: [HueStack - Extract Gradients from Image](https://huestack.dev/image-gradient-extractor)
 - Animations:
   - [Josh W. Comeau - An Interactive Guide to CSS Transitions](https://www.joshwcomeau.com/animation/css-transitions/)
   - [Josh W. Comeau - An Interactive Guide to Keyframe Animations](https://www.joshwcomeau.com/animation/keyframe-animations/)
