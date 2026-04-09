@@ -30,6 +30,7 @@ A responsive homepage using only vanilla techniques. No tools, no frameworks —
 - CSS Reset: [Josh W. Comeau - A Modern CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
 - Colours: [Material Design - The Color System](https://m2.material.io/design/color/the-color-system.html)
 - Gradient: [HueStack - Extract Gradients from Image](https://huestack.dev/image-gradient-extractor)
+- Shadow: [Josh W. Comeau - Shadow Palette Generator](https://www.joshwcomeau.com/shadow-palette/)
 - Animations:
   - [Josh W. Comeau - An Interactive Guide to CSS Transitions](https://www.joshwcomeau.com/animation/css-transitions/)
   - [Josh W. Comeau - An Interactive Guide to Keyframe Animations](https://www.joshwcomeau.com/animation/keyframe-animations/)
