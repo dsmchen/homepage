@@ -17,7 +17,7 @@ main h2 {
 }
 
 .card {
-  box-shadow: 5px 5px 10px var(--gray-400);
+  box-shadow: var(--shadow-elevation-low);
   will-change: transform;
   transition: transform 450ms;
 }
