@@ -2,6 +2,10 @@
 
 A responsive homepage using vanilla HTML and CSS. For more information, please go to [The Odin Project: Homepage](https://www.theodinproject.com/lessons/node-path-advanced-html-and-css-homepage).
 
+## Demo
+
+- <https://dsmchen.github.io/homepage/>
+
 ## Inspiration
 
 - [Buffer](https://buffer.com/)
